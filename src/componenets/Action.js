@@ -10,7 +10,8 @@ const Action =(props)=>(
                   disabled={!props.hasOptions}
                   >
                   Bugün ne yapsam?
-            </button>
+                  
+       </button>
       
       </div>
    

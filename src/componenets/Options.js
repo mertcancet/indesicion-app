@@ -10,6 +10,7 @@ const Options =(props)=>(
       onClick={props.handleDeleteOptions}
       >
         Hepsini Kaldır
+        
       </button>
     </div>
 
