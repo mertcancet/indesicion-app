@@ -1,0 +1,6 @@
+Komut istemi 
+
+
+1-)live-server public
+NOT: Önce live-serverdan aç daha sorna babel'i yaz
+2-)babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch
