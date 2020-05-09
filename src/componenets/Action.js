@@ -9,7 +9,7 @@ const Action =(props)=>(
                   onClick={props.handlePick}
                   disabled={!props.hasOptions}
                   >
-                  What Should i do?
+                  Bugün ne yapsam?
             </button>
       
       </div>

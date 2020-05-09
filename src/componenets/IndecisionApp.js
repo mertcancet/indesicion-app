@@ -35,9 +35,9 @@ handlePick=()=>{
 
 handleAddOption=(option)=>{
   if(!option){
-    return 'Enter valid value to add item';
+    return 'Boş değer giremezsin';
   }else if(this.state.options.indexOf(option)>-1){
-    return 'This option already exists';
+    return 'Daha önce listeye eklenmiş';
   }
 
   this.setState((prevState)=>({
@@ -82,12 +82,12 @@ handleAddOption=(option)=>{
     }
     
     render() {
-      const title='Indecision';
-      const subtitle='Put your life in the hands of a computer';
+      const title='Ne yapsam?';
+      const subtitle='Birşeyler yapmalıyım';
       
       return(
         <div>
-          <Header  subtitle={subtitle}/>
+          <Header title={title} subtitle={subtitle}/>
             <div className="container">
               <Action 
                 hasOptions={this.state.options.length>0} 

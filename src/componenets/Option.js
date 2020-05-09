@@ -13,7 +13,7 @@ import React from 'react';
       
       }}
       >
-      remove
+      Kaldır
       </button>
       </div>
    
