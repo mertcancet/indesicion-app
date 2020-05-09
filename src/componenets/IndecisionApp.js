@@ -66,7 +66,7 @@ handleAddOption=(option)=>{
       this.setState(()=>({options}));
     }
   }catch(e){
-    //bişey yapma
+    //bişey yapmaa
   
   
   }
